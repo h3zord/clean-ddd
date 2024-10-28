@@ -27,3 +27,6 @@ export class Slug {
     return new Slug(slugText)
   }
 }
+
+const test = new Slug('aaa')
+console.log(test)
